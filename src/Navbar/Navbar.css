@@ -1,0 +1,28 @@
+ .navbar{
+    background: #426F4F;
+    height: 6.6875em;
+    padding-left: 23%;
+    padding-right: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+ .user{
+    margin-left: auto;
+}
+
+.title__logo{
+   margin: auto;
+   color: #ffffff;
+   font-size: 160%;
+   font-family: 'Piazzolla', serif;
+}
+
+.gerb{
+   margin-right: 1%;
+}
+
+.mns{
+   margin-right: auto;
+}
