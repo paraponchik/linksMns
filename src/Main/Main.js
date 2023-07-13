@@ -44,6 +44,11 @@ const Main = () => {
                     <img src={Link} alt='Gerb Republic of Belarus' />
                     <a href='#'>pupa.com</a>
                 </div>
+
+                <div className='Link'>
+                    <img src={Link} alt='Gerb Republic of Belarus' />
+                    <a href='#'>Add</a>
+                </div>
             </div>
 
 
