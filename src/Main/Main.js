@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../Images/link.png';
+import Add from '../Images/add.png';
 import './Main.css';
 
 
@@ -12,42 +13,42 @@ const Main = () => {
             <div className='blockLineInside'>
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>pupa.com</a>
+                    <a href='#'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>Probiotik</a>
+                    <a href='#'>Add</a>
+                    <img src={Add} alt='Gerb Republic of Belarus' width="35px" />
                 </div>
             </div>
 
