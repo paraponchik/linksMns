@@ -1,0 +1,19 @@
+.blockLink{
+    margin: 3% 23%;
+    background: #E08531;
+    height: 32em;
+    border-radius: 30px;
+    position: relative;
+}
+
+.blockLineInside{
+    position: absolute;
+    width: 90%;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Link{
+    
+}
