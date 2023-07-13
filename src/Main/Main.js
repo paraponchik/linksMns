@@ -47,7 +47,7 @@ const Main = () => {
 
                 <div className='Link'>
                     <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>Add</a>
+                    <a href='#'>Probiotik</a>
                 </div>
             </div>
 
