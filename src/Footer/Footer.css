@@ -1,3 +1,7 @@
 .footer{
     background: #f1821b;
+    height: 140px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
