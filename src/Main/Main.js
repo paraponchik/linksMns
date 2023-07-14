@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from '../Images/link.png';
 import Add from '../Images/add.png';
+import Book from '../Images/book.svg';
 import './Main.css';
 
 
@@ -12,43 +13,43 @@ const Main = () => {
 
             <div className='blockLineInside'>
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <img src={Link} alt='Gerb Republic of Belarus' />
-                    <a href='#'>mns.com</a>
+                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>mns.com</a>
                 </div>
 
                 <div className='Link'>
-                    <a href='#'>Add</a>
-                    <img src={Add} alt='Gerb Republic of Belarus' width="35px" />
+                    <a href='https://nalog.gov.by'>Add</a>
+                    <img src={Add} className='add' alt='Gerb Republic of Belarus' />
                 </div>
             </div>
 
@@ -56,7 +57,8 @@ const Main = () => {
         </div>
        
         <div className='phoneList'>
-
+            <img src={Book} alt='Gerb Republic of Belarus' />
+            <a href='http://web-guit.mns/index.php?option=com_eventtableedit&Itemid=3&choose=2' className='phoneNumb'>Телефонный справочник МНС</a>
         </div>
 
     </div>

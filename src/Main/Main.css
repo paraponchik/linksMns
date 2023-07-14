@@ -1,5 +1,7 @@
+/*Block with */
 .blockLink{
     margin: 3% 23%;
+    margin-bottom: 1%;
     background: #E08531;
     height: 32em;
     border-radius: 30px;
@@ -9,17 +11,43 @@
 .blockLineInside{
     position: absolute;
     width: 90%;
-    margin: 5%;
+    margin: 2% 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    position: relative
 }
 
 .Link{
     text-align: center;
     margin: 0;
-   position: absolute;               
-   top: 50%;                         
-   transform: translate(0, -50%);
+    padding-top: 8%;
+}
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    padding-left: 3%;
+}
+
+.add{
+    padding-left: 3%;
+    width: 24px;
+}
+
+.LinkImg{
+    width: 24px;
+}
+
+
+/*Phone book*/
+.phoneList{
+    margin-left: 23%;
+    position: relative;
+}
+
+.phoneNumb{
+    padding-left: 2%;
+    position: absolute;
+    font-size: 40px;
+    align-items: center;
 }
