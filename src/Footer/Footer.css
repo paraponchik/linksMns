@@ -1,7 +1,47 @@
 .footer{
-    background: #f1821b;
-    height: 140px;
+    background: hsl(29, 88%, 53%);
     position: absolute;
     width: 100%;
     bottom: 0;
+    color: #ffffff;
+    padding: 1%;
+}
+
+.footerItems{
+    display: grid;
+    grid-template-areas: "Title generalNumberServices"
+                         "Title generalMailServices";
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 0% 23%;
+}
+
+.Title{
+    grid-area: Title;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.generalNumberServices{
+    display: flex;
+    grid-area: generalNumberServices;
+    margin-left: auto;
+    align-items: center;
+}
+
+.generalMailServices{
+    display: flex;
+    grid-area: generalMailServices;
+    margin-left: auto;
+    align-items: center;
+}
+
+.numberServices{
+    padding-right: 5px;
+}
+
+.mailServices{
+    padding-right: 5px;
 }
