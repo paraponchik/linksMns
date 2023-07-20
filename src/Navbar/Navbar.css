@@ -1,6 +1,6 @@
  .navbar{
     background: #426F4F;
-    height: 4vw;
+    height: 6rem;
     padding-left: 23%;
     padding-right: 23%;
     display: flex;
@@ -16,11 +16,11 @@
 .title__logo{
    margin: auto;
    color: #ffffff;
-   font-size: 1.2vw;
+   font-size: 1.2rem;
 }
 
 .gerb{
-   margin-right: 1%;
+   margin-right: 1%; 
 }
 
 .mns{

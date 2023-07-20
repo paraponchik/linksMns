@@ -9,11 +9,11 @@ const Navbar = () => {
     <div className='navbar'>
 
         <div className='gerb'>
-          <img src={Gerb} width="50vm" alt='Gerb Republic of Belarus' />
+          <img src={Gerb} alt='Gerb Republic of Belarus' width="60rem" />
         </div>
 
         <div className='mns'>
-          <img src={Mns} width="50vm" alt='Gerb Ministry of Taxes and Dues' />
+          <img src={Mns} alt='Gerb Ministry of Taxes and Dues' width="60rem" />
         </div>
 
         <div className='title__logo'>
@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div className='user'>
-          <img src={User} width="50vm" alt='User' />
+          <img src={User} alt='User' width="60rem" />
         </div>
 
     </div>
