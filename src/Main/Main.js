@@ -12,44 +12,20 @@ const Main = () => {
         <div className='blockLink'>
 
             <div className='blockLineInside'>
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
+
+                    <div className='Link'>
+                    <a href='https://nalog.gov.by'>
+                        <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                            mns.com
+                    </a>
                 </div>
+                
 
                 <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                    <a href='https://nalog.gov.by'>mns.com</a>
-                </div>
-
-                <div className='Link'>
-                    <a href='https://nalog.gov.by'>Add</a>
-                    <img src={Add} className='add' alt='Gerb Republic of Belarus' />
+                    <a href='https://nalog.gov.by'>
+                            Add
+                        <img src={Add} className='add' alt='Gerb Republic of Belarus' />
+                    </a>
                 </div>
             </div>
 

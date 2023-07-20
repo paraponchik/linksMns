@@ -4,7 +4,7 @@
     width: 100%;
     bottom: 0;
     color: #ffffff;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 .footerItems{
@@ -18,8 +18,8 @@
 
 .Title{
     grid-area: Title;
-    font-size: 30px;
-    text-align: center;
+    font-size: 1.2vw;
+    text-align: left;
     margin: auto;
 
 }
@@ -29,19 +29,21 @@
     grid-area: generalNumberServices;
     margin-left: auto;
     align-items: center;
+    font-size: 1.3vw;
 }
 
 .generalMailServices{
     display: flex;
     grid-area: generalMailServices;
     margin-left: auto;
-    align-items: center;
+    align-items: center;    
+    font-size: 1.3vw;
 }
 
 .numberServices{
-    padding-right: 5px;
+    padding-right: 0.3vw;
 }
 
 .mailServices{
-    padding-right: 5px;
+    padding-right: 0.3vw;
 }
