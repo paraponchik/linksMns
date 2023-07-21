@@ -1,4 +1,8 @@
 /*Block with */
+.main{
+    flex-grow: 1;
+}
+
 .blockLink{
     margin: 3% 23%;
     margin-bottom: 1%;
@@ -13,7 +17,7 @@
     width: 90%;
     margin: 2% 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .Link{
@@ -43,11 +47,13 @@ a{
 .phoneList{
     margin-left: 23%;
     position: relative;
+    margin-bottom: 1%;
 }
 
 .phoneNumb{
     padding-left: 2%;
     position: absolute;
     align-items: center;
-    font-size: 2.2vw;
+    margin-bottom: 1%;
+    font-size: 2.7rem;
 }
