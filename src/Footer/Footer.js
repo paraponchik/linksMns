@@ -14,7 +14,6 @@ const Footer = () => {
           <img alt='phone' src={Inst} width="27vm" />
         </div>
 
-
           <div className='numberServices'>
             229-79-99
           </div>
@@ -31,8 +30,6 @@ const Footer = () => {
         </div>
 
       </div>
-
-    </div>
   )
 }
 
