@@ -1,7 +1,6 @@
 import React from 'react';
-import Link from '../Images/link.png';
-import Add from '../Images/add.png';
-import Book from '../Images/book.svg';
+import Link from '../Images/link.svg';
+import Add from '../Images/add.svg';
 import './Main.css';
 
 
@@ -13,29 +12,46 @@ const Main = () => {
 
             <div className='blockLineInside'>
 
-                    <div className='Link'>
-                    <a href='https://nalog.gov.by'>
+                <div className='Link'>
+                    <a href='https://nalog.gov.by' className='LinkService'>
                         <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
-                            mns.com
+                            АИС "Контрольная работа"
+                    </a>
+                </div>
+
+                <div className='Link'>
+                    <a href='https://nalog.gov.by' className='LinkService'>
+                        <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                            Bugzilla АИС РН
+                    </a>
+                </div>
+
+                <div className='Link'>
+                    <a href='https://nalog.gov.by' className='LinkService'>
+                        <img src={Link} className='LinkImg' alt='Gerb Republic of Belarus' />
+                            Bugzilla АИС РН
                     </a>
                 </div>
                 
 
                 <div className='Link'>
-                    <a href='https://nalog.gov.by'>
+                    <a href='https://nalog.gov.by' className='LinkService'>
                             Add
                         <img src={Add} className='add' alt='Gerb Republic of Belarus' />
                     </a>
                 </div>
-            </div>
 
+            </div>
 
         </div>
        
-        <div className='phoneList'>
-            <img src={Book} alt='Gerb Republic of Belarus' />
-            <a href='http://web-guit.mns/index.php?option=com_eventtableedit&Itemid=3&choose=2' className='phoneNumb'>Телефонный справочник МНС</a>
-        </div>
+                <div className='pagination'>
+                    <div className='paginationInsert'>
+                        <div className='pagCircle'>
+                            1
+                        </div>
+                    </div>  
+                </div>
 
     </div>
   )

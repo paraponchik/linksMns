@@ -1,7 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import Number from '../Images/phone.svg';
-import Dog from '../Images/dog.png';
+import Inst from '../Images/inst.svg';
+import Tg from '../Images/tg.svg';
+import Youtube from '../Images/youtube.svg';
+import PhoneBook from '../Images/phoneBook.svg';
 
 
 const Footer = () => {
@@ -9,26 +11,28 @@ const Footer = () => {
     <div className='footer'>
 
       <div className='footerItems'>
-        <h1 className='Title'>
-          Служба СИС главного управления развития налоговых органов
-        </h1>
 
-        <div className='generalNumberServices'>
-
-
-          <div className='numberServices'>
-            229-79-99
-          </div>
-          <img alt='phone' src={Number} width="22vm" />
+        <div className='instagram'>
+          <img alt='phone' src={Inst} width="27vm" />
         </div>
 
-        <div className='generalMailServices'>
+        <div className='telegram'>
+          <img alt='mail' src={Tg} width="27vm" />
+        </div>
 
-          <div className='mailServices'>
-            gotov@nalog.gov.by
-          </div>
+        <div className='youtube'>
+          <img alt='mail' src={Youtube} width="27vm" />
+        </div>
 
-          <img alt='mail' src={Dog} width="27vm" />
+        <div className='phoneBook'>
+            <a href='http://web-guit.mns/index.php?option=com_eventtableedit&Itemid=3&choose=2' className='phoneNumb'>
+              <img src={PhoneBook} alt='Gerb Republic of Belarus' />
+                Телефонный справочник МНС
+            </a>
+        </div>
+
+        <div className='serviceSis'>
+          &#169; 2023 Служба СИС ГУРНО
         </div>
 
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import Gerb from '../Images/gerb.png';
-import Mns from '../Images/mns.png';
-import User from '../Images/user.png';
+import Gerb from '../Images/gerb.svg';
+import Mns from '../Images/mns.svg';
+import User from '../Images/user.svg';
 import './Navbar.css';
 
 const Navbar = () => {
