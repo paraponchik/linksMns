@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from '../Images/link.svg';
 import Add from '../Images/add.svg';
+import Search from '../Images/search.svg';
 import './Main.css';
 
 
@@ -8,6 +9,20 @@ const Main = () => {
   return(
     <div className='main'>
         
+        <div className='search'>
+            <div className='searchItems'>
+
+                    <div className='searchTxt'>
+                        Найти
+                    </div>
+
+                    <img src={Search} alt='Search' className='searchImg' />
+
+            </div>
+        </div>
+
+
+        {/*Block of links*/}
         <div className='blockLink'>
 
             <div className='blockLineInside'>
