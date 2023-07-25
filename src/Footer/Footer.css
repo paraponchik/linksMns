@@ -18,8 +18,8 @@
 
 .Title{
     grid-area: Title;
-    font-size: 30px;
-    text-align: center;
+    font-size: 1.2rem;
+    text-align: left;
     margin: auto;
 
 }
@@ -29,19 +29,21 @@
     grid-area: generalNumberServices;
     margin-left: auto;
     align-items: center;
+    font-size: 1.3rem;
 }
 
 .generalMailServices{
     display: flex;
     grid-area: generalMailServices;
     margin-left: auto;
-    align-items: center;
+    align-items: center;    
+    font-size: 1.3rem;
 }
 
 .numberServices{
-    padding-right: 5px;
+    padding-right: 0.3rem;
 }
 
 .mailServices{
-    padding-right: 5px;
+    padding-right: 0.3rem;
 }

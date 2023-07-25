@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import Number from '../Images/phone.svg';
-import Dog from '../Images/dog.svg';
+import Dog from '../Images/dog.png';
 
 
 const Footer = () => {
@@ -9,27 +9,25 @@ const Footer = () => {
     <div className='footer'>
 
       <div className='footerItems'>
-        <h1 className='Title'>
-          Служба СИС главного управления развития налоговых органов
-        </h1>
 
-        <div className='generalNumberServices'>
+        <div className='instagram'>
+          <img alt='phone' src={Inst} width="27vm" />
+        </div>
 
 
           <div className='numberServices'>
             229-79-99
           </div>
-          <img alt='phone' src={Number} width="25px" />
+          <img alt='phone' src={Number} width="22vm" />
         </div>
 
         <div className='generalMailServices'>
-
 
           <div className='mailServices'>
             gotov@nalog.gov.by
           </div>
 
-          <img alt='mail' src={Dog} width="25px" />
+          <img alt='mail' src={Dog} width="27vm" />
         </div>
 
       </div>

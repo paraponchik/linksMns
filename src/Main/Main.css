@@ -13,7 +13,7 @@
     width: 90%;
     margin: 2% 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .Link{
@@ -22,20 +22,18 @@
     padding-top: 8%;
 }
 
-a{
-    font-size: 24px;
-    text-decoration: none;
+.LinkService{
+    font-size: 1.6rem;
     color: #000;
-    padding-left: 3%;
 }
 
 .add{
-    padding-left: 3%;
-    width: 24px;
+    padding-left: 2%;
+    width: 1.8rem;
 }
 
 .LinkImg{
-    width: 24px;
+    width: 1.6rem;
 }
 
 
@@ -43,11 +41,13 @@ a{
 .phoneList{
     margin-left: 23%;
     position: relative;
+    margin-bottom: 1%;
 }
 
 .phoneNumb{
     padding-left: 2%;
     position: absolute;
-    font-size: 40px;
     align-items: center;
+    margin-bottom: 1%;
+    font-size: 2.7rem;
 }

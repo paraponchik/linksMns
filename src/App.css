@@ -3,4 +3,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Piazzolla', serif;
+<<<<<<< HEAD
+=======
+  text-decoration: none;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+>>>>>>> f7a3bb1 (NewDesigne)
 }
