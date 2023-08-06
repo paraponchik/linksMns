@@ -10,14 +10,24 @@
     margin-bottom: 1%;
     height: 3rem;
     background: #E9AA6F; 
+    position: relative;
 }
 
 
 .searchItems{
     display: flex;
-    align-items: center;
-    float: right;
+    position: absolute;
+    margin: 0.6rem 1rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: auto;
+    right: 2%;
 }
+
+.searchImg{
+    width: 1.5rem;
+    margin-left: 0.2rem;
+}
+
 
 /*Block with */
 

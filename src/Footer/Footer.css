@@ -8,3 +8,28 @@
 .phoneNumb{
     color: #ffffff;
 }
+
+.SocialLinsk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocLink{
+    margin-left: 1rem;
+}
+
+.phoneBook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneNumb{
+    align-items: center;
+}
+
+.serviceSis{
+    display: flex;
+    justify-content: center;
+}

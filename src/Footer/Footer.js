@@ -12,17 +12,20 @@ const Footer = () => {
 
       <div className='footerItems'>
 
-        <div className='instagram'>
+      <div className='SocialLinsk'>
+        <div className='SocLink'>
           <img alt='phone' src={Inst} width="27vm" />
         </div>
 
-        <div className='telegram'>
+        <div className='SocLink'>
           <img alt='mail' src={Tg} width="27vm" />
         </div>
 
-        <div className='youtube'>
+        <div className='SocLink'>
           <img alt='mail' src={Youtube} width="27vm" />
         </div>
+      </div>
+        
 
         <div className='phoneBook'>
             <a href='http://web-guit.mns/index.php?option=com_eventtableedit&Itemid=3&choose=2' className='phoneNumb'>

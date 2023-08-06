@@ -51,8 +51,8 @@ const Main = () => {
 
                 <div className='Link'>
                     <a href='https://nalog.gov.by' className='LinkService'>
-                            Add
                         <img src={Add} className='add' alt='Gerb Republic of Belarus' />
+                            Добавить
                     </a>
                 </div>
 
